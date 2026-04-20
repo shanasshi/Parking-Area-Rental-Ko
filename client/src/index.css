@@ -1,0 +1,16 @@
+/* src/index.css */
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  height: 100%;
+  max-width: none !important; /* Overrides default Vite/CRA limits */
+}
+
+/* If there is a .container or .app class in your App.jsx, reset it too */
+.ant-layout {
+  width: 100% !important;
+}
